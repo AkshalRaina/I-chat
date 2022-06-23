@@ -1,7 +1,7 @@
 const express = require("express");
 const { acessChat, createGroupChat, renameGroup, addToGroup, removeFromGroup } = require("../Controllers/chatControllers");
 const {fetchChats} =require("../Controllers/chatControllers");
-const {protect}=require("../middleware/authMiddleware");
+const {protect}=require("../Middleware/authMiddleware");
 
 const router=express.Router();
 // reload();
