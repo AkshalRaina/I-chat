@@ -8,8 +8,8 @@
     "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+    "npm" : "8.1.0",
+    "node" : "16.13.0"
   },
   "author": "Akshal Raina",
   "license": "ISC",
