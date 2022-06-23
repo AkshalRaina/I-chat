@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-image: url("https://www.svgbackgrounds.com/img/svg-backgrounds-preview.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
