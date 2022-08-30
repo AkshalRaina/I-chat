@@ -7,9 +7,6 @@ const ChatBox = ({fetchAgain,setFetchAgain})=> {
   
 const {selectedChat} =ChatState();
 
-
-  
-  
   return (
     <Box
     display={{base:selectedChat?"flex":"none",md:"flex"}}
